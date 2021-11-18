@@ -711,7 +711,7 @@
             W = n("bee2"),
             X = function() {
                 function e() {
-                    Object(Q["a"])(this, e), e.isPlaying = !1, this.service = new K["a"]
+                    Object(Q["a"])(this, e), e.isPlaying = 1, this.service = new K["a"]
                 }
                 return Object(W["a"])(e, [{
                     key: "getName",
@@ -800,7 +800,7 @@
             }(),
             Y = function() {
                 function e() {
-                    Object(Q["a"])(this, e), void 0 === e.isPlaying && (e.audio = null, e.isPlaying = 1, this.service = new K["a"])
+                    Object(Q["a"])(this, e), void 0 === e.isPlaying && (e.audio = null, e.isPlaying = !1, this.service = new K["a"])
                 }
                 return Object(W["a"])(e, [{
                     key: "getName",
@@ -868,7 +868,7 @@
                                             e.next = 7;
                                             break
                                         }
-                                        return e.next = 3, this.service.postBluetooth(0);
+                                        return e.next = 3, this.service.postBluetooth(!0);
                                     case 3:
                                         return t = e.sent, e.abrupt("return", t.data.bluetooth);
                                     case 7:
