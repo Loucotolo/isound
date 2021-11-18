@@ -800,7 +800,7 @@
             }(),
             Y = function() {
                 function e() {
-                    Object(Q["a"])(this, e), void 0 === e.isPlaying && (e.audio = null, e.isPlaying = !1, this.service = new K["a"])
+                    Object(Q["a"])(this, e), void 0 === e.isPlaying && (e.audio = null, e.isPlaying = 1, this.service = new K["a"])
                 }
                 return Object(W["a"])(e, [{
                     key: "getName",
